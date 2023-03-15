@@ -7,6 +7,11 @@
  body {
   background-color: black;
   text-align: center;
+  background-image: url(./assets/background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
  }
 
  .hero {
@@ -64,7 +69,10 @@ h1 {
 }
 
 .links {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
 }
 
 .links button {
@@ -72,6 +80,7 @@ h1 {
   height: 48px;
 
   background: #FFC700;
+  border: none;
 
   font-family: 'Inter';
   font-style: normal;
